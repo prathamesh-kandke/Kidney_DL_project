@@ -3,6 +3,7 @@ from src.cnnClassifier.constants import *
 from src.cnnClassifier.entity.config import DataIngestionConfig
 from src.cnnClassifier.entity.config import PrepareBaseModelConfig
 from src.cnnClassifier.entity.config import TrainingConfig
+from src.cnnClassifier.entity.config import EvaluationConfig
 import os
 
 class ConfigurationManager:
@@ -74,3 +75,13 @@ class ConfigurationManager:
 
         return training_config
     
+    def get_evaluation_config(self) -> EvaluationConfig:
+        eval_config = EvaluationConfig(
+            path_of_model="artifacts/training/model.h5",
+            training_data="artifacts/data_ingestion/kidney-ct-scan-image",
+            mlflow_uri="https://dagshub.com/prathamesh-kandke/Kidney_DL_project.mlflow",
+            all_params=self.params,
+            params_image_size=self.params.IMAGE_SIZE,
+            params_batch_size=self.params.BATCH_SIZE
+        )
+        return eval_config
