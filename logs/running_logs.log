@@ -243,3 +243,20 @@ x==========x]
 [2025-05-12 17:55:12,752: INFO: model_eval: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-05-13 17:18:31,917: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8085
+ * Running on http://192.168.249.90:8085]
+[2025-05-13 17:18:31,917: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-13 17:18:31,921: INFO: _internal:  * Restarting with stat]
+[2025-05-13 17:18:38,270: WARNING: _internal:  * Debugger is active!]
+[2025-05-13 17:18:38,271: INFO: _internal:  * Debugger PIN: 128-945-355]
+[2025-05-13 17:19:48,806: INFO: _internal: 127.0.0.1 - - [13/May/2025 17:19:48] "GET / HTTP/1.1" 200 -]
+[2025-05-13 17:23:48,855: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-13 17:23:49,703: INFO: _internal: 127.0.0.1 - - [13/May/2025 17:23:49] "POST /predict HTTP/1.1" 200 -]
+[2025-05-13 17:24:54,636: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-13 17:24:55,236: INFO: _internal: 127.0.0.1 - - [13/May/2025 17:24:55] "POST /predict HTTP/1.1" 200 -]
+[2025-05-13 17:52:50,880: INFO: _internal:  * Detected change in 'd:\\VS Code\\mydlproject\\Kidney_DL_project\\src\\cnnClassifier\\pipeline\\model_eval.py', reloading]
+[2025-05-13 17:52:52,091: INFO: _internal:  * Restarting with stat]
+[2025-05-13 17:52:59,278: WARNING: _internal:  * Debugger is active!]
+[2025-05-13 17:52:59,294: INFO: _internal:  * Debugger PIN: 128-945-355]
