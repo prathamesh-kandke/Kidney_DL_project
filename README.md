@@ -62,7 +62,7 @@ pip install -r requirements.txt (reomve : mlflow==2.11.0)
 
     
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI : 682033475853.dkr.ecr.ap-south-1.amazonaws.com/kidneyrepo 
+    - Save the URI : 682033475853.dkr.ecr.ap-south-1.amazonaws.com/kidneyrepo
 
     
 ## 4. Create EC2 machine (Ubuntu) 
